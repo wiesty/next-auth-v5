@@ -1,4 +1,5 @@
-# Skeletton with Next Auth v5 based on Tutorial called Next Auth v5
+# Next Auth js v5 skeleton w/ smtp, sqlite, server actions and api routes
+
 
 Key Features:
 - 🔐 Next-auth v5 (Auth.js)
