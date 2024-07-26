@@ -36,4 +36,8 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-
+# database
+db/skeleton.db
+skeleton.db
+db/main.db
+main.db

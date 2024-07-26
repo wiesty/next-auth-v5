@@ -1,6 +1,9 @@
 # Next Auth js v5 skeleton w/ smtp, sqlite, server actions and api routes
 
 
+<img src=".github/742shots_so.png">
+
+
 Key Features:
 - 🔐 Next-auth v5 (Auth.js)
 - 🚀 Next.js 14 with server actions
