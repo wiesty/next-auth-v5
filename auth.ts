@@ -1,6 +1,6 @@
 import NextAuth from "next-auth"
 import authConfig from "@/auth.config"
-import { PrismaAdapter } from "@auth/prisma-adapter"
+import { PrismaAdapter } from "@next-auth/prisma-adapter"
 import { db } from "@/lib/db";
 import { getUserById } from "./data/user";
 import { getTwoFactorConfirmationByUserId } from "./data/two-factor-confirmation";
@@ -98,7 +98,7 @@ export const {
           return token;
         }
     },
-    adapter: PrismaAdapter(db), // error here is normal
+    adapter: PrismaAdapter(db),
     session: { strategy : "jwt"},
     ...authConfig,
 })
